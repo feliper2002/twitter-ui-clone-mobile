@@ -10,11 +10,12 @@ class UserInfo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
         children: [
           UserNameTag(),
-          // Description(),
-          // ExtraInfos(),
-          // FollowInfos(),
+          Description(),
+          ExtraInfos(),
+          FollowInfos(),
         ],
       ),
     );

@@ -12,6 +12,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
+      type: BottomNavigationBarType.fixed,
       selectedFontSize: 0,
       currentIndex: _currentIndex,
       unselectedFontSize: 0,
@@ -32,6 +33,14 @@ class _BottomNavBarState extends State<BottomNavBar> {
             BottomNavigationBarItem(
               label: '',
               icon: Icon(Icons.search),
+            ),
+            BottomNavigationBarItem(
+              label: '',
+              icon: Icon(Icons.notifications),
+            ),
+            BottomNavigationBarItem(
+              label: '',
+              icon: Icon(Icons.mail),
             ),
           ] ??
           0,

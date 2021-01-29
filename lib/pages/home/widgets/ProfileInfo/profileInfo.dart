@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:twitter_mobile_ui_clone/pages/home/widgets/ProfileInfo/editbtn.dart';
 import 'package:twitter_mobile_ui_clone/styles/theme.dart';
-import '../../../../styles/fonts.dart';
 import 'banner.dart';
 import 'UserInfo/info.dart';
 
@@ -15,13 +14,14 @@ class _ProfileInfoState extends State<ProfileInfo> {
   Widget build(BuildContext context) {
     return Container(
       child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           ProfileBanner(),
           UserInfo(),
           /*
           
           */
-          // SeparateLine(),
+          SeparateLine(),
         ],
       ),
     );

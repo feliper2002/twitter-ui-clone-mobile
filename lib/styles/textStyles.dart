@@ -19,3 +19,8 @@ var tagInfo_style = GoogleFonts.roboto(
   color: Colors.white.withOpacity(0.6),
   fontSize: 16,
 );
+
+var description_style = GoogleFonts.roboto(
+  color: Colors.white,
+  fontSize: 16,
+);
