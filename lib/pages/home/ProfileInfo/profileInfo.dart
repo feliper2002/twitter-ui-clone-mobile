@@ -33,7 +33,7 @@ class SeparateLine extends StatelessWidget {
     return Divider(
       color: border_bottom_color,
       thickness: 2,
-      height: 5,
+      height: 3,
     );
   }
 }

@@ -24,3 +24,18 @@ var description_style = GoogleFonts.roboto(
   color: Colors.white,
   fontSize: 16,
 );
+
+var tweetContent_style = GoogleFonts.roboto(
+  color: Colors.white,
+  fontSize: 15,
+);
+
+var tweetUserName_style = GoogleFonts.roboto(
+  color: Colors.white,
+  fontSize: 16,
+);
+
+var tweetUserTag_style = GoogleFonts.roboto(
+  color: Colors.white.withOpacity(0.5),
+  fontSize: 16,
+);

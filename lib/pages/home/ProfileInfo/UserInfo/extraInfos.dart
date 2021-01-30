@@ -6,7 +6,7 @@ class ExtraInfos extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Container(
-      height: size.height / 13,
+      height: size.height / 12,
       width: size.width - 30,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,

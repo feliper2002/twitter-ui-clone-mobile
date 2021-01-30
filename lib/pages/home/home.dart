@@ -12,21 +12,18 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   @override
-  void initState() {
-    super.initState();
-  }
-
-  @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    return SafeArea(
-      child: Scaffold(
-        floatingActionButton: FloatingActionButton(
-          onPressed: () {},
-          child: Icon(Icons.publish),
-        ),
-        body: Container(
-          child: Column(
+    return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: Icon(Icons.publish),
+      ),
+      body: SafeArea(
+        child: Container(
+          height: size.height,
+          width: size.width,
+          child: ListView(
             children: [
               AppBarTT(),
               ProfileInfo(),
@@ -34,8 +31,8 @@ class _HomePageState extends State<HomePage> {
             ],
           ),
         ),
-        bottomNavigationBar: BottomNavBar(),
       ),
+      bottomNavigationBar: BottomNavBar(),
     );
   }
 }
