@@ -15,7 +15,7 @@ class EditButton extends StatelessWidget {
           hoverColor: button_color.withOpacity(0.5),
           onTap: () {},
           child: Container(
-            height: 50,
+            height: 40,
             width: 150,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(32),
@@ -28,7 +28,7 @@ class EditButton extends StatelessWidget {
               ),
             ),
             child: Padding(
-              padding: const EdgeInsets.all(13),
+              padding: const EdgeInsets.all(10),
               child: Text(
                 'Edit profile',
                 textAlign: TextAlign.center,

@@ -11,7 +11,7 @@ class _FeedState extends State<Feed> {
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      child: ListView(
+      child: Column(
         children: [
           Tweet(),
           Tweet(),

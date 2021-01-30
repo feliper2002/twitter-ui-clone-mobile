@@ -5,7 +5,7 @@ import 'package:twitter_mobile_ui_clone/styles/theme.dart';
 
 var editBtnStyle = GoogleFonts.roboto(
   color: button_color,
-  fontSize: 19,
+  fontSize: 17,
   fontWeight: FontWeight.bold,
 );
 

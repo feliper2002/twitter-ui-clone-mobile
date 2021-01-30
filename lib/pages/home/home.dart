@@ -25,18 +25,14 @@ class _HomePageState extends State<HomePage> {
           onPressed: () {},
           child: Icon(Icons.publish),
         ),
-        body: Stack(
-          children: [
-            SingleChildScrollView(
-              child: Column(
-                children: [
-                  ProfileInfo(),
-                  Feed(),
-                ],
-              ),
-            ),
-            AppBarTT(),
-          ],
+        body: Container(
+          child: Column(
+            children: [
+              AppBarTT(),
+              ProfileInfo(),
+              Feed(),
+            ],
+          ),
         ),
         bottomNavigationBar: BottomNavBar(),
       ),

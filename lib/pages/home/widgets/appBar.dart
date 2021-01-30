@@ -13,12 +13,12 @@ class _AppBarTTState extends State<AppBarTT> {
     return Align(
       alignment: Alignment.topCenter,
       child: Container(
-        color: background_color,
         height: size.height / (13),
         width: size.width,
         child: Row(
           children: [
             IconButton(
+              autofocus: true,
               splashRadius: 18.0 ?? 0,
               color: button_color,
               highlightColor: button_color.withOpacity(0.5),
