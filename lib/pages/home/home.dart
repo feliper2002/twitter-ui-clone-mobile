@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:twitter_mobile_ui_clone/pages/home/widgets/appBar.dart';
 import 'package:twitter_mobile_ui_clone/pages/home/widgets/bottomNavBar.dart';
-import 'widgets/feed.dart';
-import 'widgets/ProfileInfo/profileInfo.dart';
+
+import 'Feed/feed.dart';
+import 'ProfileInfo/profileInfo.dart';
 
 class HomePage extends StatefulWidget {
   @override

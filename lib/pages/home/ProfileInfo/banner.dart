@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:twitter_mobile_ui_clone/pages/home/widgets/ProfileInfo/editbtn.dart';
 import 'package:twitter_mobile_ui_clone/styles/theme.dart';
+
+import 'editbtn.dart';
 
 class ProfileBanner extends StatelessWidget {
   @override

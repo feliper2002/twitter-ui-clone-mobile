@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../styles/fonts.dart';
+
+import 'tweetModel.dart';
 
 class Feed extends StatefulWidget {
   @override
@@ -9,6 +10,15 @@ class Feed extends StatefulWidget {
 class _FeedState extends State<Feed> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Expanded(
+      child: ListView(
+        children: [
+          Tweet(),
+          Tweet(),
+          Tweet(),
+          Tweet(),
+        ],
+      ),
+    );
   }
 }
