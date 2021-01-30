@@ -4,8 +4,7 @@ UI Clone da aba de perfil do Twitter Mobile.
 
 ## Screenshots
 
-<img src="assets/screenshots/1.png" width=170>
-<img src="assets/screenshots/2.png" width=170>
+<img src="assets/screenshots/1.png" width=240><img src="assets/screenshots/2.png" width=240>
 
 ## Tecnologias
 
