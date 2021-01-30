@@ -63,7 +63,7 @@ class LinkInfo extends StatelessWidget {
         ),
         SizedBox(width: 8),
         Text(
-          'skoob.com.br/user/ribeirin_lipe',
+          'skoob.com.br/user/ribeiro',
           style: TextStyle(
             fontSize: 14.5,
             color: button_color,

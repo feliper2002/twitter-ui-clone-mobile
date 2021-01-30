@@ -6,8 +6,8 @@ import 'followInfos.dart';
 import 'userNameTag.dart';
 
 class UserInfo extends StatelessWidget {
-  String name = 'Lipe 📖🌹 ~ Acotar';
-  String tag = '@ribeirin_lipe';
+  String name = 'Lipe 📖 Acotar';
+  String tag = '@ribeiro_lipe';
 
   @override
   Widget build(BuildContext context) {

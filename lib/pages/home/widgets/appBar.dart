@@ -28,7 +28,7 @@ class _AppBarTTState extends State<AppBarTT> {
             Expanded(
               child: ListTile(
                 title: Text(
-                  'Lipe 📖🌹 ~ Acotar',
+                  'Lipe 📖 Acotar',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 18,
