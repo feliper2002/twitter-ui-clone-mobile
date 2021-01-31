@@ -13,6 +13,7 @@ class _AppBarTTState extends State<AppBarTT> {
     return Align(
       alignment: Alignment.topCenter,
       child: Container(
+        color: background_color,
         height: size.height / (13),
         width: size.width,
         child: Row(

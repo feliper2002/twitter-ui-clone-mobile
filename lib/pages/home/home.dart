@@ -20,16 +20,21 @@ class _HomePageState extends State<HomePage> {
         child: Icon(Icons.publish),
       ),
       body: SafeArea(
-        child: Container(
-          height: size.height,
-          width: size.width,
-          child: ListView(
-            children: [
-              AppBarTT(),
-              ProfileInfo(),
-              Feed(),
-            ],
-          ),
+        child: Stack(
+          children: [
+            Container(
+              height: size.height,
+              width: size.width,
+              child: ListView(
+                padding: EdgeInsets.only(top: (size.height / 13)),
+                children: [
+                  ProfileInfo(),
+                  Feed(),
+                ],
+              ),
+            ),
+            AppBarTT(),
+          ],
         ),
       ),
       bottomNavigationBar: BottomNavBar(),
